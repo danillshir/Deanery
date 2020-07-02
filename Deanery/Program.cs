@@ -8,6 +8,7 @@ namespace Deanery
 {
     static class Program
     {
+        public static DeaneryEntities dean = new DeaneryEntities();
         /// <summary>
         /// Главная точка входа для приложения.
         /// </summary>
