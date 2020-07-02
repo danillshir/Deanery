@@ -21,7 +21,8 @@ namespace Deanery
         }
 
         private void buttonAdd_Click(object sender, EventArgs e)
-        {try
+        {
+            try
             {
                 if (comboBoxSubject.SelectedItem != null && comboBoxStudent.SelectedItem != null && textBoxPoint.Text != "")
                 {

@@ -20,13 +20,20 @@ namespace Deanery
 
         private void buttonAdd_Click(object sender, EventArgs e)
         {
-            GroupSet groupSet = new GroupSet();
-            groupSet.NameGroup = textBoxNameGroup.Text;
-            groupSet.Specialty = textBoxSpecialty.Text;
-            groupSet.Year = Convert.ToInt32(textBoxYear.Text);
-            Program.dean.GroupSet.Add(groupSet);
-            Program.dean.SaveChanges();
-            ShowGroup();
+            try
+            {
+                GroupSet groupSet = new GroupSet();
+                groupSet.NameGroup = textBoxNameGroup.Text;
+                groupSet.Specialty = textBoxSpecialty.Text;
+                groupSet.Year = Convert.ToInt32(textBoxYear.Text);
+                Program.dean.GroupSet.Add(groupSet);
+                Program.dean.SaveChanges();
+                ShowGroup();
+            }
+            catch
+            {
+                MessageBox.Show("Невозможно добавить, введите другие значения.", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
         void ShowGroup()
         {
