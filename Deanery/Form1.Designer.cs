@@ -41,9 +41,9 @@
             this.buttonGroups.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(214)))));
             this.buttonGroups.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonGroups.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonGroups.Location = new System.Drawing.Point(61, 167);
+            this.buttonGroups.Location = new System.Drawing.Point(12, 179);
             this.buttonGroups.Name = "buttonGroups";
-            this.buttonGroups.Size = new System.Drawing.Size(188, 48);
+            this.buttonGroups.Size = new System.Drawing.Size(251, 48);
             this.buttonGroups.TabIndex = 1;
             this.buttonGroups.Text = "Группы";
             this.buttonGroups.UseVisualStyleBackColor = false;
@@ -54,9 +54,9 @@
             this.buttonStudents.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(214)))));
             this.buttonStudents.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonStudents.Font = new System.Drawing.Font("Calibri", 14.25F);
-            this.buttonStudents.Location = new System.Drawing.Point(61, 221);
+            this.buttonStudents.Location = new System.Drawing.Point(12, 233);
             this.buttonStudents.Name = "buttonStudents";
-            this.buttonStudents.Size = new System.Drawing.Size(188, 48);
+            this.buttonStudents.Size = new System.Drawing.Size(251, 48);
             this.buttonStudents.TabIndex = 2;
             this.buttonStudents.Text = "Студенты";
             this.buttonStudents.UseVisualStyleBackColor = false;
@@ -67,9 +67,9 @@
             this.buttonSubject.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(214)))));
             this.buttonSubject.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonSubject.Font = new System.Drawing.Font("Calibri", 14.25F);
-            this.buttonSubject.Location = new System.Drawing.Point(61, 275);
+            this.buttonSubject.Location = new System.Drawing.Point(12, 287);
             this.buttonSubject.Name = "buttonSubject";
-            this.buttonSubject.Size = new System.Drawing.Size(188, 48);
+            this.buttonSubject.Size = new System.Drawing.Size(251, 48);
             this.buttonSubject.TabIndex = 3;
             this.buttonSubject.Text = "Дисциплины";
             this.buttonSubject.UseVisualStyleBackColor = false;
@@ -80,9 +80,9 @@
             this.buttonPoint.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(214)))));
             this.buttonPoint.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonPoint.Font = new System.Drawing.Font("Calibri", 14.25F);
-            this.buttonPoint.Location = new System.Drawing.Point(61, 329);
+            this.buttonPoint.Location = new System.Drawing.Point(12, 341);
             this.buttonPoint.Name = "buttonPoint";
-            this.buttonPoint.Size = new System.Drawing.Size(188, 48);
+            this.buttonPoint.Size = new System.Drawing.Size(251, 48);
             this.buttonPoint.TabIndex = 4;
             this.buttonPoint.Text = "Баллы";
             this.buttonPoint.UseVisualStyleBackColor = false;
@@ -91,9 +91,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Deanery.Properties.Resources._28_281003_stafford_county_public_school_logo_stafford_county_public_schools;
-            this.pictureBox1.Location = new System.Drawing.Point(61, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(188, 122);
+            this.pictureBox1.Size = new System.Drawing.Size(251, 149);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -103,7 +103,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(213)))), ((int)(((byte)(202)))));
-            this.ClientSize = new System.Drawing.Size(304, 419);
+            this.ClientSize = new System.Drawing.Size(275, 411);
             this.Controls.Add(this.buttonPoint);
             this.Controls.Add(this.buttonSubject);
             this.Controls.Add(this.buttonStudents);
